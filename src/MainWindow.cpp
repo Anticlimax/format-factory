@@ -46,6 +46,8 @@ int MainWindow::OnButtonClicked() {
 
     delegate->LogVideoResolution();
 
+    delegate->TransContainer();
+
     delegate->CloseContext();
 
     delete delegate;
